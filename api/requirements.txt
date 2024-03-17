@@ -1,0 +1,15 @@
+uvicorn
+fastapi
+pydantic
+typing
+enum34
+pandas
+numpy
+scikit-learn
+keras
+openai
+httpx
+python-dotenv
+bs4
+geopy
+google-generativeai
