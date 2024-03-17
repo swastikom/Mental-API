@@ -13,3 +13,4 @@ python-dotenv
 bs4
 geopy
 google-generativeai
+tensorflow
