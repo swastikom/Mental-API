@@ -2,6 +2,9 @@ import pandas as pd
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 from sklearn.feature_extraction.text import TfidfVectorizer
+import nltk
+
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 import pickle
