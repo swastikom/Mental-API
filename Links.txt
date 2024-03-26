@@ -1,0 +1,4 @@
+1. Emotion Catagorization by their extrimity: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3896150/
+2. Suicide Text Detection Dataset: https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch
+3. Stress Detection from text Dataset: https://www.kaggle.com/datasets/reihanenamdari/mental-health-corpus
+4. Emotion Detection from text Dataset: https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
