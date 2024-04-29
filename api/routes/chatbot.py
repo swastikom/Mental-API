@@ -6,6 +6,8 @@ import openai
 from dotenv import load_dotenv
 import os
 
+#AIzaSyDKwOWNBYIXvqmahJuhbxAcyCv8HMtc1ho
+
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -32,7 +34,7 @@ async def query(prompt: Description):
     temparature = 0.5
     max_tokens = 500
 
-    input_prompt = """{prompt}"""
+    input_prompt = """ " Suppose you are a mental health professional. Now tell me {prompt}"""
 
     messages_chat.append({"role":"user","content":f"{input_prompt}"})
     completion = openai.chat.completions.create(
