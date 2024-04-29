@@ -32,7 +32,7 @@ async def query(prompt: Description):
     temparature = 0.5
     max_tokens = 500
 
-    input_prompt = """You are a mental health specialist. Now I will give you a question and you have to analyze whether the question is related to mental health or psychology or not. If it is related to mental health or psychology then answer the question but do not say something like: "The question "..." is indeed related to mental health. ". If the question is not related to mental health then reply: "Please ask anything related to mental health or psychology". The question is - f"{prompt}" """
+    input_prompt = """You are a mental health specialist. Your job is to answer questions related to mental health. If you are asked about who you are you will answer : "I am a chatbot to assist you about frequently asked questions related to mental health and psychology". The question is - f"{prompt}" """
 
     messages_chat.append({"role":"user","content":f"{input_prompt}"})
     completion = openai.chat.completions.create(
