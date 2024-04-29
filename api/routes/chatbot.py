@@ -32,7 +32,7 @@ async def query(prompt: Description):
     temparature = 0.5
     max_tokens = 500
 
-    input_prompt = """You are a mental health specialist. answer the question accordingly. The question is - f"{prompt}" """
+    input_prompt = """Answer the question accordingly. The question is - f"{prompt}" """
 
     messages_chat.append({"role":"user","content":f"{input_prompt}"})
     completion = openai.chat.completions.create(
