@@ -10,7 +10,7 @@ app = FastAPI()
 
 origins = [
     "http://localhost:3000",  # Add your frontend's origin here
-    # "https://example.vercel.app"
+    "https://medeasy.vercel.app"
 ]
 
 app.add_middleware(
